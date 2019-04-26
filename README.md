@@ -5,11 +5,12 @@ Example to display a RTSP stream in a Qt5 desktop application with libVLC. This 
 ## Install
 
 `sudo apt install vlc`
-`pip install python-vlc`
 
-or (if you are using python3):
+If not want to use use the provided `vlc.py` file its possible to:
 
-`pip3 install python-vlc`
+- Download the latest version from the VLC git: `https://git.videolan.org/?p=vlc/bindings/python.git;a=blob_plain;f=generated/2.2/vlc.py;hb=HEAD`
+
+- Install from pip: `pip install python-vlc` or (if you are using python3) `pip3 install python-vlc`
 
 ## Run
 
